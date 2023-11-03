@@ -18,8 +18,8 @@ static void test_2_1() {
   int total_count = 0;
   for (const auto &doc : documents) {
     total_count += count_diphthongs(doc, diphthong);
-    std::cout << total_count << std::endl;
   }
+  std::cout << total_count << std::endl;
 }
 
 TEST_CASE("Question #2.1") {
