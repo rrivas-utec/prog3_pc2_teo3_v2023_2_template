@@ -15,8 +15,8 @@ static void test_2_4() {
   int count_doc1 = count_diphthongs(doc1, "ai"s);
   int count_doc2 = count_diphthongs(doc2, "ea"s);
 
-  std::cout << "ai: " << count_doc1 << " times." << std::endl;
-  std::cout << "ea: " << count_doc2 << " times." << std::endl;
+  std::cout << count_doc1 << std::endl;
+  std::cout << count_doc2 << std::endl;
 }
 
 TEST_CASE("Question #2.4") {
