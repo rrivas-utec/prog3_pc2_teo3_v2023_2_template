@@ -1,0 +1,4 @@
+limit_submissions: -1
+required_files: 
+  - generate_sub_ranges.h
+  - count_diphthongs.h
